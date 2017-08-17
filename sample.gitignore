@@ -1,0 +1,7 @@
+/vendor
+/node_modules
+/.sass-cache
+/.phpintel
+/npm-debug.log
+/__mocks__
+/__tests__

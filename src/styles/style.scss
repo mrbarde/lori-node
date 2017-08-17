@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,700i');
+@import './app.scss';
+@import './utilities/variables.scss';
+@import './utilities/animations.scss';
+
+html, body{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px;
+    overflow: hidden;
+}
+
+.lori_notifications{
+    z-index: 100;
+}
+
+#app{
+    width: 100%;
+    height: 100%;
+}
+
+.app-container{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background: $primary;
+    background: -wbekit-linear-gradient(top left, $primary, darken($primary, 15%));
+    background: linear-gradient(to top left, $primary, darken($primary, 15%));
+}

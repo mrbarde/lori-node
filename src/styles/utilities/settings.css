@@ -1,0 +1,30 @@
+.box_sizing{
+	box-sizing: border-box;
+}
+
+.spanned{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.large_font{
+	font-size: 7rem;
+}
+
+.script_font{
+	font-family: 'Dancing Script', cursive;
+}
+
+.lato{
+	font-family: 'Lato', sans-serif;
+}
+
+.link_color{
+	color: #48b0f7;
+	font-weight: 600;
+}
+
+.link_color:hover{
+	color: #3a8fc8;
+}

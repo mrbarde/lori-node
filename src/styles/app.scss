@@ -1,0 +1,142 @@
+.src-styles-utilities-___settings__box_sizing___2GJ0i {
+  box-sizing: border-box;
+}
+
+.src-styles-utilities-___settings__spanned___YoD6A {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.src-styles-utilities-___settings__large_font___29reI {
+  font-size: 7rem;
+}
+
+.src-styles-utilities-___settings__script_font___36pxO {
+  font-family: 'Dancing Script', cursive;
+}
+
+.src-styles-utilities-___settings__lato___hoGlo {
+  font-family: 'Lato', sans-serif;
+}
+
+.src-styles-utilities-___settings__link_color___2RDTy {
+  color: #48b0f7;
+  font-weight: 600;
+}
+
+.src-styles-utilities-___settings__link_color___2RDTy:hover {
+  color: #3a8fc8;
+}.src-modules-lori-styles-___splash__logo___nJ8cQ {
+  display: inline-block;
+  width: 360px;
+  height: 360px;
+}
+
+@media (max-width: 600px) {
+  .src-modules-lori-styles-___splash__logo___nJ8cQ {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.src-modules-lori-styles-___splash__message___w9fws {
+  margin: 0px 0px 15px 0px;
+  text-align: center;
+  color: #D1E1FE;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+
+.src-modules-lori-styles-___splash__spanned___3jxmh {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  height: 100%;
+}
+
+.src-modules-lori-styles-___splash__column___1QQNo {
+  flex: 1;
+  z-index: 1;
+}
+
+.src-modules-lori-styles-___splash__main___22IBD {
+  margin: 0px 0px;
+}
+
+.src-modules-lori-styles-___splash__link___3DHlQ {
+  font-weight: 300;
+  font-size: 1.1em;
+  margin: 10px 0px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.src-modules-lori-styles-___splash__m-b-30___1m3tb {
+  margin-bottom: 30px;
+}
+
+.src-modules-lori-styles-___splash__black_text___3189U {
+  color: #000;
+}
+
+@media (max-width: 991px) {
+  .src-modules-lori-styles-___splash__welcome___1AWgX {
+    font-size: 5em;
+  }
+
+  .src-modules-lori-styles-___splash__message___w9fws {
+    font-size: 0.9em;
+  }
+
+  .src-modules-lori-styles-___splash__link___3DHlQ {
+    font-size: 0.9em;
+  }
+}.src-modules-lori-styles-___quote__quote___3QLm3 {
+  position: relative;
+  float: none;
+  clear: both;
+  margin: 100px auto 10px auto;
+  padding: 0px 20px;
+  width: 480px;
+}
+
+@media (max-width: 480px) {
+  .src-modules-lori-styles-___quote__quote___3QLm3 {
+    width: 100%;
+    margin-top: 60px;
+  }
+}
+
+.src-modules-lori-styles-___quote__quote___3QLm3 .src-modules-lori-styles-___quote__body___ZraI1 {
+  font-weight: 300;
+  font-size: 1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #D1E1FE;
+}
+
+@media (max-width: 480px) {
+  .src-modules-lori-styles-___quote__quote___3QLm3 .src-modules-lori-styles-___quote__body___ZraI1 {
+    font-size: 0.8em;
+  }
+}
+
+.src-modules-lori-styles-___quote__quote___3QLm3 .src-modules-lori-styles-___quote__author___3zYU_ {
+  font-weight: 600;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #D1E1FE;
+}
+
+@media (max-width: 480px) {
+  .src-modules-lori-styles-___quote__quote___3QLm3 .src-modules-lori-styles-___quote__author___3zYU_ {
+    font-size: 0.8em;
+  }
+}

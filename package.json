@@ -1,0 +1,92 @@
+{
+  "name": "lori",
+  "description": "Quickly start a ReactJS project in a php run environment.",
+  "main": "src/main.jsx",
+  "scripts": {
+    "test": "jest",
+    "dev": "cross-env NODE_ENV=development gulp start --silent",
+    "prod": "cross-env NODE_ENV=production gulp start --silent"
+  },
+  "repository": "https://github.com/mrbarde/lori-node.git",
+  "author": "Daniel Barde - mrbarde2k@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "lori-bites": "^1.0.18",
+    "method-override": "^2.3.9",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-particles-js": "^1.5.0",
+    "react-redux": "^4.4.8",
+    "react-router-dom": "^4.1.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "save-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-jest": "^16.0.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-runtime": "^6.25.0",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "classnames": "^2.2.5",
+    "cross-env": "^5.0.3",
+    "css-loader": "^0.25.0",
+    "enzyme": "^2.9.1",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-connect-php": "^1.0.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-util": "^3.0.8",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^16.0.2",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "lori-scripts": "^1.2.31",
+    "node-sass": "^3.13.1",
+    "optimize-css-assets-webpack-plugin": "^1.3.2",
+    "postcss-loader": "^1.3.3",
+    "postcss-smart-import": "^0.5.1",
+    "react-addons-test-utils": "^15.6.0",
+    "react-css-modules": "^3.7.10",
+    "react-test-renderer": "^15.6.1",
+    "resolve-url": "^0.2.1",
+    "resolve-url-loader": "^2.1.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.7.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "jest": {
+    "modulePaths": [
+      "./"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "bower_components",
+      "shared"
+    ],
+    "moduleNameMapper": {
+      "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "^.+\\.(css|less|scss)$": "identity-obj-proxy"
+    }
+  }
+}

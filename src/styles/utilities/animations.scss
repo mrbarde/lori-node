@@ -1,0 +1,21 @@
+.notif-enter {
+  opacity: 0.01;
+  right: -50px;
+}
+
+.notif-enter.notif-enter-active {
+  opacity: 1;
+  right: 0;
+  transition: opacity 200ms ease-in, right 250ms ease-in;
+}
+
+.notif-leave {
+  opacity: 1;
+  right: 0;
+}
+
+.notif-leave.notif-leave-active {
+  opacity: 0.01;
+  right: -50px;
+  transition: opacity 200ms ease-in, right 250ms ease-in;
+}

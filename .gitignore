@@ -1,0 +1,16 @@
+/vendor
+/node_modules
+/.sass-cache
+/.phpintel
+/npm-debug.log
+/package-lock.json
+/yarn.json
+/__mocks__/*
+/__tests__/*
+
+#### remove these lines
+/public/*.js
+/public/*.map
+/public/css/*
+/public/images/*
+/public/fonts/*
