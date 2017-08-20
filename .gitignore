@@ -63,6 +63,10 @@ typings/
 # php intel
 /.phpintel
 
+# package lock files
+package-lock.json
+yarn.lock
+
 # test directories
 /__mocks__/*
 /__tests__/*
