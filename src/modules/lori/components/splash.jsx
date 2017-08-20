@@ -6,7 +6,6 @@ import styles from '../styles/splash.scss';
 import env from 'env';
 import logo from '../files/logo.png';
 import Quote from './presenters/quote.jsx';
-import Particles from 'react-particles-js';
 import {Page} from 'lori-bites';
 
 /**
@@ -44,15 +43,6 @@ class Home extends Component{
 					author: 'Plato'
 				}
 			],
-            particleStyles: {
-				position: 'absolute',
-				left: 0,
-				top: 0,
-				width: '100%',
-				height: '100%',
-				zIndex: 0,
-				opacity: 0.4
-			},
 			quote: null
 		};
 	}
@@ -69,12 +59,11 @@ class Home extends Component{
 	}
 
 	render(){
-		var {quote, particleStyles} = this.state;
+		var {quote} = this.state;
 		// return view
 		return(
 			<Page title="Welcome to Lori Framework">
 				<div styleName='spanned'>
-					<Particles style={particleStyles} className="foo" params={require('../files/particlesjs-config.json')}/>
 					<div styleName='column'>
 
 					</div>
