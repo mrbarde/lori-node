@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import cssModules from 'react-css-modules';
 import styles from '../styles/splash.scss';
 import env from 'env';
-import logo from '../files/logo.png';
+import logo from '../assets/logo.png';
 import Quote from './presenters/quote.jsx';
 import {Page} from 'lori-bites';
 
