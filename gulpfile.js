@@ -80,8 +80,9 @@ const syncServer = function() {
         port: loriConfig.syncPort,
         logLevel: 'silent'
     },[
-        path.join(__dirname, 'public/assets/js/*'),
-        path.join(__dirname, 'public/*')
+        path.join(__dirname, 'public/*'),
+        path.join(__dirname, 'public/assets/*'),
+        path.join(__dirname, 'public/assets/css/*')
     ]);
     syncServe.start();
 };

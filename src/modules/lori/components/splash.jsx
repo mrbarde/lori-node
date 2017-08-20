@@ -73,8 +73,7 @@ class Home extends Component{
 							{'Build something great...'}
 						</h5>
 						<div>
-							<a href='https://github.com/mrbarde/lori/wiki' target='_blank' styleName='link'>Documentation</a>
-							<a href='https://github.com/mrbarde/lori' target='_blank' styleName='link'><i className='fa fa-github' styleName='black_text'></i>{' GitHub'}</a>
+							<a href='https://mrbarde.github.io/lori' target='_blank' styleName='link'>Documentation</a>
 						</div>
 						{ quote && <Quote {...quote}/> }
 					</div>

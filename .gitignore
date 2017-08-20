@@ -72,4 +72,4 @@ yarn.lock
 /__tests__/*
 
 # remove these lines
-/public/assets
+public/assets
