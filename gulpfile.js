@@ -29,7 +29,8 @@ gulp.task('webpack', function(){
     let task = new WebpackTask({
         source: path.resolve(__dirname, 'src/app.jsx'),
         config: require('./webpack.config.js'),
-        destination: path.join(__dirname, 'public/assets')
+        destination: path.join(__dirname, 'public/assets'),
+        callback: syncServer
     });
     task();
 });
@@ -47,33 +48,23 @@ gulp.task("sass", function(){
         destination: path.join(__dirname, 'public/assets/css')
     });
     task();
-});
-
-/**
- * ****************************************
- * Server Task
- * ****************************************
- */
-gulp.task('serve', function(){
     watch();
-    nodeServer();
 });
 
 /**
  * ****************************************
  * PHP Server
  * ****************************************
- * BrowserSync by default can't actully listen for
- * php files so as a fix we start a php server on
+ * Start a node server on
  * http://localhost:PORT then proxy the server via
  * BrowserSync.
  */
-const nodeServer = function(){
+gulp.task('server', function(){
     // configure the server
-    var nodeServe = new NodeServer(path.join(__dirname, 'server.js'), syncServer);
+    var nodeServe = new NodeServer(path.join(__dirname, 'server.js'));
     // start the server
     nodeServe.start();
-};
+});
 
 /**
  * ****************************************
@@ -113,7 +104,7 @@ const watch = function(){
  * ****************************************
  * starts gulp task
  */
-gulp.task('start', ['sass', 'serve', 'webpack']);
+gulp.task('start', ['sass', 'server', 'webpack']);
 
 /**
  * ****************************************
