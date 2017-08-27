@@ -29,9 +29,7 @@ module.exports.watch = true;
  * aliaes we want to resolve.
  */
 module.exports.resolve.alias = {
-	env: (loriConfig.isProduction) 
-		? loriConfig.devDir+ '/environments/production.environment.js' 
-		: loriConfig.devDir+ '/environments/development.environment.js',
+	ENV: loriConfig.env,
 	AppConfigs:  loriConfig.devDir+'/configs/app.config.js',
 	RoutesConfig:  loriConfig.devDir+'/configs/routes.config.js'
 };
